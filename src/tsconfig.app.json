@@ -6,7 +6,11 @@
     "types": [],
   },
   "exclude": [
-    "src/test.ts",
-    "**/*.spec.ts"
+    "test.ts",
+    "**/*.spec.ts",
+  ],
+  "include": [
+    "../src/*.ts",
+    "../src/**/*.ts",
   ]
 }
